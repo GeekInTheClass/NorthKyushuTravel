@@ -83,8 +83,17 @@ for word in searchWord {
 
 print (result)
 
+//04 answer
 
+var result2:[String:Array<String>] = [:]
+searchWord.map{(word) in
+    result2[word] = inString.filter {
+        $0.range(of:word) != nil
+    }
 
+}
+
+print (result2)
 
 
 //No.5
@@ -99,3 +108,13 @@ for (metroEach, popEach) in metroPop {
 }
 
 print (filteredMetroPop)
+
+//05 answer
+
+let metroPop2 = metroPop.filter{$0.1 % 2 == 0 && $0.1 > 1500000}
+print (metroPop2)
+
+
+
+
+
