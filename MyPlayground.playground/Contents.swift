@@ -17,6 +17,11 @@ for paramEach in params{
 }
 print (printedParamsSum)
 
+var i = 0
+params.map{
+    i += $0
+    print(i)
+}
 
 
 
@@ -42,6 +47,20 @@ for sumEach in printedParamsSum2{
     }
 }
 
+var result: [Int] = []
+
+var i2 = 0
+   params.map{
+    i2 += $0
+    
+    print(i2)
+    result += [i2]
+}
+
+var b = result.filter{
+    $0 > 500
+}
+
 
 print (finalElectricFee)
 
@@ -61,7 +80,19 @@ for characters in params3 {
     }
 }
 
-print(conanDoyle)
+var conanDoyle2 :[String] = []
+let asdfjioa = params3.map{
+    if ($0 == $0.lowercased()) {
+        $0.uppercased()
+        conanDoyle2 += [$0.uppercased()]
+    } else {
+        $0.lowercased()
+        conanDoyle2 += [$0.lowercased()]
+    }
+}
+print(conanDoyle2)
+
+
 
 
 
@@ -69,7 +100,7 @@ print(conanDoyle)
 
 let inString:Array<String> = ["Yesterday all my troubles seemed so far away.", "Suddenly I'm not half the man I used to be.", "I said something wrong, now I long for yesterday."]
 let searchWord:Array<String> = ["away", "you", "I"]
-var result:[String:Array<String>] = [:]
+var result2:[String:Array<String>] = [:]
 
 for word in searchWord {
     var stringIntermediate :[String] = []
@@ -78,10 +109,12 @@ for word in searchWord {
             stringIntermediate += [strings]
         }
     }
-    result[word] = stringIntermediate
+    result2[word] = stringIntermediate
 }
 
-print (result)
+print (result2)
+
+
 
 
 
@@ -97,5 +130,14 @@ for (metroEach, popEach) in metroPop {
     }
     
 }
-
 print (filteredMetroPop)
+
+var valuesArray = metroPop.values.map{
+    if ($0 % 2 == 0 && $0 > 150000) {
+        $0
+    }
+}
+
+valuesArray.map{
+    metroPop.keys.map
+}
