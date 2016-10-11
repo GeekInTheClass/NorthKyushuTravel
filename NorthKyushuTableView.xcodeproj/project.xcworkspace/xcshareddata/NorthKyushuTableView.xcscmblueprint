@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F081253C3F1C7655898579B812B611DC661128B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C83C3E7E4C68900860C2B9EF1CDDF28248C5BF04" : 9223372036854775807,
+    "F081253C3F1C7655898579B812B611DC661128B6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "572C5E73-2F31-4618-8997-34607BFAAC39",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C83C3E7E4C68900860C2B9EF1CDDF28248C5BF04" : "NorthKyushuTravel\/",
+    "F081253C3F1C7655898579B812B611DC661128B6" : "NorthKyushuTravel\/NorthKyushuTableView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NorthKyushuTableView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NorthKyushuTableView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GeekInTheClass\/NorthKyushuTravel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C83C3E7E4C68900860C2B9EF1CDDF28248C5BF04"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GeekInTheClass\/NorthKyushuTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F081253C3F1C7655898579B812B611DC661128B6"
+    }
+  ]
+}
